@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-Simple-Form</title>
+
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+            padding-left: 440px;
+            padding-top: 100px;
+        }
+
+        .form {
+            border: 1px solid black;
+            line-height: 1.5;
+            padding: 10px 30px;
+            width: 520px;
+            background: linear-gradient(#e66465, #9198e5);
+        }
+
+        .label {
+            font-weight: bolder;
+        }
+
+        .input {
+            padding: 0 0 0 5px;
+            height: 30px;
+            width: 500px;
+            border: 1px solid black;
+        }
+
+        .button {
+            padding: 0;
+            height: 35px;
+            width: 505px;
+            color: white;
+            background-color: limegreen;
+            border: 0;
+            font-size: medium;
+            cursor: pointer;
+        }
+
+        .low {
+            margin-top: 15px;
+            border: 0;
+            width: 500px;
+            height: 50px;
+            padding: 15px 0 0 5px;
+            background-color: lightgrey;
+        }
+
+        .btn {
+            background-color: red;
+            border: 0;
+            border-radius: 5%;
+            color: white;
+            font-size: medium;
+            height: 35px;
+            width: 85px;
+            cursor: pointer;
+        }
+
+        span {
+            margin-left: 280px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <center><img src="som.png" alt="photo" height="200px"></center> <br>
+        <label class="label" for="username">Username</label> <br>
+        <input class="input" type="text" name="username" placeholder="Enter Username"> <br> <br>
+
+        <label class="label" for="password">Password</label> <br>
+        <input class="input" type="password" name="password" placeholder="Enter Password"> <br> <br>
+
+        <button class="button">Login</button> <br> <br>
+
+        <input type="checkbox" name="check" checked title="checkbox">
+        <label for="check">Remember me</label> <br>
+
+        <div class="low">
+            <button class="btn">Cancel</button>
+            <span>Forgot <u>Password ?</u></span>
+        </div>
+    </div>
+</body>
+
+</html>
